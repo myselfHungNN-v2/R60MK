@@ -21,7 +21,6 @@
 			<Item Name="Comm.SerialLine.lvlib" Type="Library" URL="../Libraries/Comm.SerialLine/Comm.SerialLine.lvlib"/>
 			<Item Name="Comm.TCPIP.lvlib" Type="Library" URL="../Libraries/Comm.TCPIP/Comm.TCPIP.lvlib"/>
 			<Item Name="PLC_Launcher.lvlib" Type="Library" URL="../Libraries/PLC_Launcher/PLC_Launcher.lvlib"/>
-			<Item Name="Read Config File.vi" Type="VI" URL="../../../../R60_MotionBase Launcher(hung)_v2_(19Sep2022)_on R60Launcher/SubVIs/Read Config File.vi"/>
 			<Item Name="SPIM7_CAM.lvlib" Type="Library" URL="../Libraries/SPIM7_CAM/SPIM7_CAM.lvlib"/>
 			<Item Name="SPIM7_Keypad.lvlib" Type="Library" URL="../Libraries/SPIM7_Keypad/SPIM7_Keypad.lvlib"/>
 			<Item Name="ToanTester.lvlib" Type="Library" URL="../Libraries/ToanTester/ToanTester.lvlib"/>
@@ -41,6 +40,7 @@
 			<Item Name="calib_cam_launcher_tilt (SubVI).vi" Type="VI" URL="../../SubVIs/calib_cam_launcher_tilt (SubVI).vi"/>
 			<Item Name="checksum(SubVI).vi" Type="VI" URL="../../SubVIs/checksum(SubVI).vi"/>
 			<Item Name="checksum.vi" Type="VI" URL="../../Ultilities/checksum.vi"/>
+			<Item Name="confirm stop moving.vi" Type="VI" URL="../../SubVIs/confirm stop moving.vi"/>
 			<Item Name="convert to HEX string.vi" Type="VI" URL="../../SubVIs/convert to HEX string.vi"/>
 			<Item Name="enquece Keypad(SubVI).vi" Type="VI" URL="../../SubVIs/enquece Keypad(SubVI).vi"/>
 			<Item Name="extract Pan value(SubVI).vi" Type="VI" URL="../../SubVIs/extract Pan value(SubVI).vi"/>
@@ -67,6 +67,7 @@
 			<Item Name="Test ToanTester API.vi" Type="VI" URL="../Libraries/ToanTester/Test ToanTester API.vi"/>
 		</Item>
 		<Item Name="type defs" Type="Folder">
+			<Item Name="App Cluster.ctl" Type="VI" URL="../../type defs/App Cluster.ctl"/>
 			<Item Name="App PLC Control.ctl" Type="VI" URL="../../type defs/App PLC Control.ctl"/>
 			<Item Name="Control 1.ctl" Type="VI" URL="../../SubVIs/Control 1.ctl"/>
 			<Item Name="MB control.ctl" Type="VI" URL="../../type defs/MB control.ctl"/>
@@ -76,6 +77,7 @@
 		<Item Name="Ultilities" Type="Folder">
 			<Item Name="log pelco cmd (SubVI).vi" Type="VI" URL="../../SubVIs/log pelco cmd (SubVI).vi"/>
 			<Item Name="log pelco cmd 2 (SubVI).vi" Type="VI" URL="../../SubVIs/log pelco cmd 2 (SubVI).vi"/>
+			<Item Name="Read INI file.vi" Type="VI" URL="../../SubVIs/Read INI file.vi"/>
 			<Item Name="RS485_logger.vi" Type="VI" URL="../../Ultilities/RS485_logger.vi"/>
 		</Item>
 		<Item Name="Video Recoding" Type="Folder">
@@ -83,7 +85,6 @@
 			<Item Name="REC_ThermalCAM.vi" Type="VI" URL="../../SubVIs/video recoding/REC_ThermalCAM.vi"/>
 			<Item Name="REC_ThermalCAM_simple.vi" Type="VI" URL="../../SubVIs/video recoding/REC_ThermalCAM_simple.vi"/>
 		</Item>
-		<Item Name="confirm stop moving.vi" Type="VI" URL="../../SubVIs/confirm stop moving.vi"/>
 		<Item Name="main v2.vi" Type="VI" URL="../../main/main v2.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../../main/main.vi"/>
 		<Item Name="TCPIP sender.vi" Type="VI" URL="../../SubVIs/TCPIP sender.vi"/>
